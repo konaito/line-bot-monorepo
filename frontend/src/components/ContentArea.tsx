@@ -4,17 +4,19 @@ interface ContentAreaProps {
   title?: string
   children?: ReactNode
   loading?: boolean
+  appbar?: ReactNode
 }
 
 export function ContentArea({ 
   title = "コンテンツ", 
+  appbar = null,
   children, 
   loading = false 
 }: ContentAreaProps) {
   return (
     <div className="bg-white h-full flex flex-col">
       <div className="p-6 border-b border-gray-100">
-        <h2 className="text-xl font-semibold text-gray-900">{title}</h2>
+        {appbar ? appbar : <h2 className="text-xl font-semibold text-gray-900">{title}</h2>}
       </div>
       <div className="flex-1 overflow-y-auto">
         {loading ? (

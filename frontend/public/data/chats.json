@@ -1,0 +1,50 @@
+[
+    {
+        "id": "1",
+        "chatId": "1",
+        "type": "text",
+        "content": "こんにちは！商品についてお聞きしたいことがあります",
+        "direction": "incoming",
+        "timestamp": "2025-08-28T10:00:00Z"
+    },
+    {
+        "id": "2",
+        "chatId": "1",
+        "type": "text",
+        "content": "こんにちは！お問い合わせありがとうございます。どのようなことでお困りでしょうか？",
+        "direction": "outgoing",
+        "timestamp": "2025-08-28T10:25:30Z"
+    },
+    {
+        "id": "3",
+        "chatId": "1",
+        "type": "text",
+        "content": "新商品の价格と特徴を教えてください",
+        "direction": "incoming",
+        "timestamp": "2025-08-28T10:30:00Z"
+    },
+    {
+        "id": "4",
+        "chatId": "2",
+        "type": "text",
+        "content": "こんにちは！商品についてお聞きしたいことがあります",
+        "direction": "incoming",
+        "timestamp": "2025-08-28T10:00:00Z"
+    },
+    {
+        "id": "5",
+        "chatId": "2",
+        "type": "text",
+        "content": "こんにちは！お問い合わせありがとうございます。どのようなことでお困りでしょうか？",
+        "direction": "outgoing",
+        "timestamp": "2025-08-28T10:25:30Z"
+    },
+    {
+        "id": "6",
+        "chatId": "3",
+        "type": "text",
+        "content": "こんにちは！商品についてお聞きしたいことがあります",
+        "direction": "incoming",
+        "timestamp": "2025-08-28T10:00:00Z"
+    }
+]

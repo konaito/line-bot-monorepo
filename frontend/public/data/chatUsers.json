@@ -1,0 +1,26 @@
+[
+{
+    "id": "1",
+    "userId": "U1234567890abcdef",
+    "userName": "田中太郎",
+    "userAvatar": "https://example.com/avatar.png",
+    "avatarUrl": "https://example.com/avatar.png",
+    "isConfirmed": false
+  },
+  {
+      "id": "2",
+      "userId": "U2345678901bcdef0",
+      "userName": "佐藤花子",
+      "userAvatar": "https://example.com/avatar.png",
+      "avatarUrl": "https://example.com/avatar.png",
+      "isConfirmed": false
+    },
+    {
+        "id": "3",
+        "userId": "U3456789012cdef01",
+        "userName": "山田次郎",
+        "userAvatar": "https://example.com/avatar.png",
+        "avatarUrl": "https://example.com/avatar.png",
+        "isConfirmed": true
+      }
+]

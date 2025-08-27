@@ -9,6 +9,7 @@ export type BrandProfile = {
     email?: string;
     website?: string;
     businessHours?: string;      // 営業時間（シンプル文字列でOK、将来構造化も可）
+    notes?: string;              // 企業についてのメモ
   };
   voice: {
     tone: "formal" | "friendly" | "casual" | "polite";

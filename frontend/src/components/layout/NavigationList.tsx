@@ -19,7 +19,7 @@ const navigationItems: { label: string; href: Route }[] = [
   },
   {
     label:"API連携",
-    href:"/api",
+    href:"/apis",
   }
 ]
 
@@ -34,7 +34,7 @@ export function NavigationList() {
       <nav className="flex-1 p-4">
         <ul className="space-y-1">
           {navigationItems.map((item, index) => {
-            const isActive = pathname === item.href || (item.href === '/chat' && pathname?.startsWith('/chat')) || (item.href === '/scenario' && pathname?.startsWith('/scenario')) || (item.href === '/brand' && pathname?.startsWith('/brand')) || (item.href === '/api' && pathname?.startsWith('/api'))
+            const isActive = pathname === item.href || (item.href === '/chat' && pathname?.startsWith('/chat')) || (item.href === '/scenario' && pathname?.startsWith('/scenario')) || (item.href === '/brand' && pathname?.startsWith('/brand')) || (item.href === '/apis' && pathname?.startsWith('/apis'))
             return (
               <li key={index}>
                 <Link
